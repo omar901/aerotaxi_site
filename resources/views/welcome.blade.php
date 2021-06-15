@@ -14,7 +14,7 @@
     <body class="bg-gray-100">
         <div class="max-w-md px-8 py-10 mx-auto">
             <div class="mt-6">
-                <img class="h-12" src="img/ta_logo_trans.png" alt="logo">
+                <img class="h-12" src="img/taxiaereologo.png" alt="logo">
             </div> 
                 <div class="mt-6">
                 <h1 class="mt-6 font-sans text-3xl font-bold text-center text-green-600 ">AeroTaxi</h1>
