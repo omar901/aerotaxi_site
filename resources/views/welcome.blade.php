@@ -28,7 +28,7 @@
             @endif
 
             <div>
-                <h1 class="text-2xl">Aerotaxi Site</h1>
+                <h1 class="text-2xl text-red-800">Aerotaxi Site</h1>
             </div>
         </div>
     </body>
