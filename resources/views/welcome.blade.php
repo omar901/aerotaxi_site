@@ -11,28 +11,16 @@
 
         
     </head>
-    <body>
-        <div class="relative flex justify-center min-h-screen py-4 bg-gray-100 items-top dark:bg-gray-900 sm:items-center sm:pt-0">
-        <img src="/resources/img/sunset_ceiba.jpg" alt="sunset at ceiba pr">
-            @if (Route::has('login'))
-                <div class="fixed top-0 right-0 hidden px-6 py-4 sm:block">
-                    @auth
-                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
-                    @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Log in</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-            <div >
-                <div>
-                    <h1 class="text-4xl font-bold text-red-500">Aerotaxi Site</h1>
-                </div>            
-            </div>
-
+    <body class="bg-gray-100">
+        <div class="max-w-md px-8 py-10 mx-auto">
+            <div class="mt-6">
+                <img class="h-12" src="img/ta_logo_trans.png" alt="logo">
+            </div> 
+                <div class="mt-6">
+                <h1 class="mt-6 font-sans text-3xl font-bold text-center text-green-600 ">AeroTaxi</h1>
+            </div> 
+                         
         </div>
+    
     </body>
 </html>
