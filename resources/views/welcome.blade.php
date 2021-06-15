@@ -26,10 +26,12 @@
                     @endauth
                 </div>
             @endif
-
-            <div>
-                <h1 class="text-2xl text-red-800">Aerotaxi Site</h1>
+            <div class="bg-gray-200">
+                <div>
+                    <h1 class="text-2xl text-red-800">Aerotaxi Site</h1>
+                </div>            
             </div>
+
         </div>
     </body>
 </html>
