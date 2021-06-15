@@ -11,7 +11,7 @@
 
         
     </head>
-    <body class="bg-blue-400">
+    <body>
         <div class="relative flex justify-center min-h-screen py-4 bg-gray-100 items-top dark:bg-gray-900 sm:items-center sm:pt-0">
             @if (Route::has('login'))
                 <div class="fixed top-0 right-0 hidden px-6 py-4 sm:block">
@@ -28,7 +28,7 @@
             @endif
             <div >
                 <div>
-                    <h1 class="text-2xl text-red-800 bg-blue-200">Aerotaxi Site</h1>
+                    <h1 class="text-2xl text-red-800">Aerotaxi Site</h1>
                 </div>            
             </div>
 
