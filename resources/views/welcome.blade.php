@@ -12,15 +12,15 @@
         
     </head>
     <body class="bg-gray-100">
-        <div class="max-w-md px-8 py-10 mx-auto">
-            <div class="mt-6">
-                <img class="h-12" src="img/taxiaereologo.png" alt="logo">
+        <div class="flex-1 max-w-4xl p-10 mx-auto">
+           <div class="grid grid-cols-5">
+            <div class="mx-auto">
+                <img class="h-auto" src="img/tx_transparent.png" alt="logo">
             </div> 
-                <div class="mt-6">
-                <h1 class="mt-6 font-sans text-3xl font-bold text-center text-green-600 ">AeroTaxi</h1>
-            </div> 
-                         
-        </div>
-    
+                <div>
+                <h1 class="mt-5 ml-0 font-sans text-3xl font-bold text-green-600 ">AeroTaxi</h1>
+            </div>    
+        </div> 
+        </div>   
     </body>
 </html>
