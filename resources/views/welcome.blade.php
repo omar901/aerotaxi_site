@@ -15,7 +15,7 @@
         <div class="flex-1 max-w-4xl p-10 mx-auto">
            <div class="">
             <div class="mx-auto px-8 py-12">
-                <img class="h-20" src="img/taxiaereologo1trans.png" alt="logo svg">
+                <img class="h-40" src="img/taxiaereologo1trans.png" alt="logo svg">
             </div> 
             <div>
                <img class="h-400" src="img/playa_caracas_vqs.jpg" alt="Playa Caracas Vieques PR">
