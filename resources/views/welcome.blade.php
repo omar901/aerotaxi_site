@@ -18,7 +18,7 @@
                 <img class="h-auto" src="img/taxiaereologo1trans.png" alt="logo svg">
             </div> 
             <div>
-               <img class="h-10" src="img/playa_caracas_vqs.jpg" alt="Playa Caracas Vieques PR">
+               <img class="h-400" src="img/playa_caracas_vqs.jpg" alt="Playa Caracas Vieques PR">
             </div>    
         </div> 
         </div>   
