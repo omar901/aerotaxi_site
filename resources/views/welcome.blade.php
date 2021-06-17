@@ -13,7 +13,7 @@
     </head>
     <body class="bg-gray-100">
         <div class="flex-1 max-w-4xl p-10 mx-auto">
-            <div class="mx-auto px-8 py-12">
+            <div class="mx-auto px-8">
                 <img class="h-60 mx-auto" src="img/taxiaereologo1trans.png" alt="logo svg">
             </div> 
             <div>
