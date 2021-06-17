@@ -15,7 +15,7 @@
         <div class="flex-1 max-w-4xl p-10 mx-auto">
            <div class="grid grid-cols-5">
             <div class="mx-auto">
-                <img class="h-auto" src="img/tx_transparent.png" alt="logo">
+                <img class="h-auto" src="img/taxiaereologo1trans.svg" alt="logo svg">
             </div> 
                 <div>
                 <h1 class="mt-5 ml-0 font-sans text-3xl font-bold text-green-600 ">AeroTaxi</h1>
