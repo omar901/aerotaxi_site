@@ -20,11 +20,11 @@
                <img class="h-400 rounded-2xl shadow-lg mx-auto" src="img/playa_caracas_vqs.jpg" alt="Playa Caracas Vieques PR">
             </div>   
             <div>
-             <h1 class="text-center font-bold font-4xl text-blue-light py-6">
+             <h1 class="text-center font-bold font-4xl text-blue-300 py-6">
                 787 718-8869
                 
              </h1>
-             <h1 class="text-center font-bold font-4xl text-blue py-6">
+             <h1 class="text-center font-bold font-4xl text-blue-300 py-6">
                 reservations@taxiaereopr.travel
                 
              </h1>
