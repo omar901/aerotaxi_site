@@ -1,6 +1,3 @@
 @tailwind base;
-    .h1 {
-        Color: babyBlue,
-    }
 @tailwind components;
 @tailwind utilities;
