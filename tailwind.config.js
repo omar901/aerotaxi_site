@@ -1,17 +1,13 @@
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
   theme: {
-    textColor: theme => theme('colors'),
-    textColor: {
-      'babyBlue': '#2D7DB0',
-    },
-    extend: {},
-  },
-  variants: {
-    extend: {
-      
-    },
-  },
-  plugins: [],
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      blue: {
+        light: '#85d7ff',
+        DEFAULT: '#2D7DB0',
+        dark: '#009eeb',
+      }
+    }
+  }
 }
