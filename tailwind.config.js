@@ -9,5 +9,9 @@ module.exports = {
         dark: '#009eeb',
       }
     }
-  }
+  },
+  plugins: [
+    // ...
+    require('@tailwindcss/aspect-ratio'),
+  ]
 }
