@@ -7,7 +7,7 @@ use Livewire\Component;
 class PictureExpand extends Component
 {
     public $name = 'Visitor';
-    public $picture = 'flamenco_tank.jpg';
+    public $picture = '/flamenco_tank.jpg';
     protected $listeners = ['refreshpicture' => 'expandme'];
 
     public function expandme()
