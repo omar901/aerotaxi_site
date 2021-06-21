@@ -68,6 +68,7 @@
 
             </div> 
         </div> 
+        @livewire('picture-expand')
         @livewireScripts  
     </body>
 </html>
