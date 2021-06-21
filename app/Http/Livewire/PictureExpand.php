@@ -8,6 +8,8 @@ class PictureExpand extends Component
 {
     public function render()
     {
-        return view('livewire.picture-expand');
+        return view('livewire.picture-expand', [
+            'name' => 'Visitor',
+        ]);
     }
 }
