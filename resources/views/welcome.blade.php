@@ -17,9 +17,7 @@
             <div class="mx-auto px-8">
                 <img class="h-100 mx-auto py-2" src="img/taxiaereologo_shadow_trans.png" alt="logo">
             </div> 
-            <div>
-               <img wire:click="refreshpicture" class="h-400 rounded-2xl shadow-lg mx-auto" src="img/playa_caracas_vqs.jpg" alt="Playa Caracas Vieques PR">
-            </div>   
+               
             <div>
                 <h1 class="text-center font-bold font-4xl text-blue-300 py-6">
                     787 718-8869

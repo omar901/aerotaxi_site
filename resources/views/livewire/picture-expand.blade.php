@@ -1,7 +1,7 @@
 <div>
-    <span>Enter your name</span>
-    <input wire:model="name" type="text">
-   Hello {{strtoupper($name)}}
+<div>
+               <img wire:click="refreshpicture" class="h-400 rounded-2xl shadow-lg mx-auto" src="img/playa_caracas_vqs.jpg" alt="Playa Caracas Vieques PR">
+            </div>
 
    <ul role="list" class="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
   <li class="relative">
