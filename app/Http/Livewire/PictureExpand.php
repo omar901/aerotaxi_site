@@ -12,7 +12,9 @@ class PictureExpand extends Component
 
     public function expandme()
     {
-        $this->emit('expandme');
+       $imgzize = getimagesize('img/flamenco_tank.jpg');
+       return $imgzize;
+
     }
 
     public function render()
