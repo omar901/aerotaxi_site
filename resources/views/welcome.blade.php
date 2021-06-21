@@ -9,8 +9,9 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
-        
+        @livewireStyles
     </head>
+    
     <body class="bg-gray-100">
         <div class="flex-1 max-w-4xl p-10 mx-auto">
             <div class="mx-auto px-8">
@@ -66,6 +67,7 @@
 </ul>
 
             </div> 
-        </div>   
+        </div> 
+        @livewireScripts  
     </body>
 </html>
