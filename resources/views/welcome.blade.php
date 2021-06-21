@@ -19,14 +19,6 @@
             </div> 
                
             <div>
-                <h1 class="text-center font-bold font-4xl text-blue-300 py-6">
-                    787 718-8869
-                    
-                </h1>
-                <h1 class="text-center font-bold font-4xl text-blue-300 py-6">
-                    reservations@taxiaereopr.travel
-                    
-                </h1>
 
 
 <ul role="list" class="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
@@ -67,6 +59,15 @@
             </div> 
         </div> 
         @livewire('picture-expand')
+        <h1 class="text-center font-bold font-4xl text-blue-300 py-6">
+                    787 718-8869
+                    
+                </h1>
+                <h1 class="text-center font-bold font-4xl text-blue-300 py-6">
+                    reservations@taxiaereopr.travel
+                    
+                </h1>
+
         @livewireScripts  
     </body>
 </html>
