@@ -10,7 +10,7 @@ class PictureExpand extends Component
     public $picture = 'flamenco_tank.jpg';
     protected $listeners = ['refreshpicture' => 'expandme'];
 
-    public function expandme()
+    public function expandme($picture)
     {
         $this->emit('expandme');
     }
@@ -19,6 +19,7 @@ class PictureExpand extends Component
     {
         return view('livewire.picture-expand', [
             'name' => 'Visitor',
+            'picture' => '/flamenco_tank.jpg',
         ]);
     }
 }
