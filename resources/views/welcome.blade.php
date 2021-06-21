@@ -15,10 +15,10 @@
     <body class="bg-gray-100">
         <div class="flex-1 max-w-4xl p-10 mx-auto">
             <div class="mx-auto px-8">
-                <img wire:click="refreshpicture"class="h-100 mx-auto py-2" src="img/taxiaereologo_shadow_trans.png" alt="logo">
+                <img class="h-100 mx-auto py-2" src="img/taxiaereologo_shadow_trans.png" alt="logo">
             </div> 
             <div>
-               <img class="h-400 rounded-2xl shadow-lg mx-auto" src="img/playa_caracas_vqs.jpg" alt="Playa Caracas Vieques PR">
+               <img wire:click="refreshpicture" class="h-400 rounded-2xl shadow-lg mx-auto" src="img/playa_caracas_vqs.jpg" alt="Playa Caracas Vieques PR">
             </div>   
             <div>
                 <h1 class="text-center font-bold font-4xl text-blue-300 py-6">
