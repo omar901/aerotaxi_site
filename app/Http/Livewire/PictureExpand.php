@@ -10,7 +10,7 @@ class PictureExpand extends Component
     public $picture = 'flamenco_tank.jpg';
     protected $listeners = ['refreshpicture' => 'expandme'];
 
-    public function expandme($picture)
+    public function expandme()
     {
         $this->emit('expandme');
     }
