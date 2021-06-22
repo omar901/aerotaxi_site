@@ -15,6 +15,10 @@ class PictureExpand extends Component
  {
      alert('Hello');
  }
+ public function mount()
+ {
+     $this->picture = '/flamenco_tank.jpg';
+ }
     public function render()
     {
         return view('livewire.picture-expand', [
