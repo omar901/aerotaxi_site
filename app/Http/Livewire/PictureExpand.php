@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Http\Livewire;
 
+namespace App\Http\Livewire;
+header("Content-type: image/jpg");
 use Livewire\Component;
 
 class PictureExpand extends Component
