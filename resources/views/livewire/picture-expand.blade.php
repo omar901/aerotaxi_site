@@ -2,7 +2,7 @@
 <div>
                <img class="h-400 rounded-2xl shadow-lg mx-auto" src="img/playa_caracas_vqs.jpg" alt="Playa Caracas Vieques PR">
             </div>
-
+            <div class="mx-auto">
             <ul role="list" class="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8 mt-3">
   <li class="relative">
     <div class="group block w-full aspect-w-10 aspect-h-7 rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-indigo-500 overflow-hidden">
@@ -36,5 +36,8 @@
   </li>
 
   <!-- More files... -->
+            </div>
+
+            
 </ul>
 </div>
