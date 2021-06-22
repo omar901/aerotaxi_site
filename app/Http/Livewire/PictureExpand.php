@@ -9,7 +9,7 @@ class PictureExpand extends Component
 {
     public $name = 'Visitor';
     public $picture = '/flamenco_tank.jpg';
-    protected $listeners = ['refreshpicture' => 'expandme'];
+    protected $listeners = ['expandme' => 'expandme'];
 
  function expandme()
  {
