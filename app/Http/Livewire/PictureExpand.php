@@ -11,17 +11,10 @@ class PictureExpand extends Component
     public $picture = '/flamenco_tank.jpg';
     protected $listeners = ['refreshpicture' => 'expandme'];
 
-    public function expandme()
-    {
-       $imgzize = imagecreatefromjpeg('img/flamenco_tank.jpg');
-       $filesize = $_FILES["uploaded_file"]["img/flamenco_tank.jpg"];
-       $resized = imagecreatetruecolor(1024,1024);
-       imagecopyresampled($resized,$imgzize, 0,0,0,0, 1024,1024, 200,200);
-       imagejpeg($resized, "RESIZED.jpg");
-       return $resized;
-
-    }
-
+ function expandme()
+ {
+     alert('Hello');
+ }
     public function render()
     {
         return view('livewire.picture-expand', [
