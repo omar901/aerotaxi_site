@@ -12,8 +12,12 @@ class PictureExpand extends Component
 
     public function expandme()
     {
-       $imgzize = getimagesize('img/flamenco_tank.jpg');
-       return $imgzize;
+       $imgzize = imagecreatefromjpeg('img/flamenco_tank.jpg');
+       $filesize = $_FILES["uploaded_file"]["img/flamenco_tank.jpg"];
+       $resized = imagecreatetruecolor(1024,1024);
+       imagecopyresampled($resized,$imgzize, 0,0,0,0, 1024,1024, 200,200);
+       imagejpeg($resized, "RESIZED.jpg");
+       return $resized;
 
     }
 
