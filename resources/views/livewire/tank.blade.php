@@ -1,5 +1,5 @@
 <div>
-<div class="flex-1 max-w-4xl p-10 mx-auto">
+
             
                
             <div>
