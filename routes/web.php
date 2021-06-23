@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/picture-expand', function(){
-    return('livewire/picture-expand');
+    return view ('livewire/picture-expand');
 });
