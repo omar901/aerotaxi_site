@@ -13,7 +13,7 @@ class PictureExpand extends Component
 
  function expandme()
  {
-     alert('Hello');
+     return view('/tank');
  }
  public function mount()
  {
@@ -21,9 +21,6 @@ class PictureExpand extends Component
  }
     public function render()
     {
-        return view('livewire.picture-expand', [
-            'name' => 'Visitor',
-            'picture' => '/flamenco_tank.jpg',
-        ]);
+        return view('livewire.picture-expand');
     }
 }
