@@ -21,11 +21,11 @@
             <div>
 
 
-
+@livewire('picture-expand')
 
             </div> 
         </div> 
-        @livewire('picture-expand')
+        
         <h1 class="text-center font-bold font-4xl text-blue-300 py-6">
                     787 718-8869
                     
