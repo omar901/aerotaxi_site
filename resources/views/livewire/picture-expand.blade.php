@@ -7,7 +7,7 @@
   <li class="relative">
     <div class="group block w-full aspect-w-10 aspect-h-7 rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-indigo-500 overflow-hidden ">
       <img src="img/flamenco_tank.jpg" alt="" class="object-cover pointer-events-none group-hover:opacity-75">
-      <button type="button" href="/tank" class="absolute inset-0 focus:outline-none">
+      <button type="button" wire:click="/tank" class="absolute inset-0 focus:outline-none">
         <span class="sr-only">View details for Flamenco beach, Culebra PR</span>
       </button>
     </div>
