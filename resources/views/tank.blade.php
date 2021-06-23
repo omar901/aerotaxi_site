@@ -27,6 +27,6 @@
        
 
         @livewireScripts  
-        <link href="{{asset(js/app.js) }}">
+        <link href="{{asset('js/app.js') }}">
     </body>
 </html>
