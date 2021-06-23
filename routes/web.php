@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/picture-expand', function(){
-    return view ('livewire/picture-expand');
+Route::get('/tank', function(){
+    return view ('/tank');
 });
