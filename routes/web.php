@@ -17,6 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/tank', function(){
-    return view ('/tank');
-});
+Route::get('/tank', \App\Http\Livewire\PictureExpand::class);
